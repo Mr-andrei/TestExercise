@@ -1,0 +1,43 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabsContainer {
+    display: flex;
+    column-gap: 16px;
+
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.tab {
+    cursor: pointer;
+}
+
+.borderList {
+    width: 95px;
+    height: 4px;
+
+    background-color: #27ae60;
+
+    position: relative;
+    left: -3px;
+
+    transition: ease all 0.3s;
+}
+
+.borderInfo {
+    width: 95px;
+    height: 4px;
+
+    background-color: #27ae60;
+
+    position: relative;
+    left: 104px;
+
+    transition: ease all 0.3s;
+}
+
+
